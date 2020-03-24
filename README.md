@@ -19,5 +19,5 @@ The suggested order:
 ## Submitting
 
 1. Fork this repository
-1. Submit a PR against **this** repository, not your fork
-1. Submit the PR URL to Canvas
+1. Do your work on a separate branch and submit a PR to your fork (as usual)
+1. Submit the URL to your PR to Canvas
