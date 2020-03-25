@@ -6,13 +6,25 @@
  * @returns {number} The sum
  */
 function sum(array) {
-  // This is your job. :)
+  let sum =0;
+  for (let num of array) {
+    sum+=num;
+  }
+  return sum;
 }
+
 
 if (require.main === module) {
   console.log('Running sanity checks for sum:');
+  console.log('Should all be true!!!');
 
-  // Add your own sanity checks here.
+
+  console.log('Expected output is correct: ',15===sum([4,5,3,2,1]));
+  console.log('Expected output is correct: ', 0=== sum([]));
+  console.log('Expected output is correct: ',45===sum([4,15,3,20,3]));
+
+
+
   // How else will you be sure your code does what you think it does?
 }
 
